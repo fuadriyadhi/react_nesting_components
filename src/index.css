@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-x: hidden;
+}
+
+.mobileLayout {
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
+  padding: 30px;
+  background-color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
